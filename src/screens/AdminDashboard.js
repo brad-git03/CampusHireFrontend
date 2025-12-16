@@ -59,7 +59,7 @@ const AdminDashboard = ({ navigation, route }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     // --- 3. CONFIG ---
-    const API_URL = Platform.OS === 'web' ? 'http://127.0.0.1:8000' : 'https://finalsbackendcampushire.onrender.com';
+    const API_URL = Platform.OS === 'web' ? 'https://finalsbackendcampushire.onrender.com' : 'https://finalsbackendcampushire.onrender.com';
     const DASHBOARD_BG = 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop';
 
     // --- 4. SESSION ---

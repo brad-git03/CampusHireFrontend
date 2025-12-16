@@ -20,7 +20,7 @@ const SignupScreen = ({ navigation }) => {
     const [showPassword, setShowPassword] = useState(false); 
 
     // 🌐 AUTO-DETECT URL (Using the local emulator URL for mobile)
-    const API_URL = Platform.OS === 'web' ? 'http://127.0.0.1:8000' : 'https://finalsbackendcampushire.onrender.com';
+    const API_URL = Platform.OS === 'web' ? 'https://finalsbackendcampushire.onrender.com' : 'https://finalsbackendcampushire.onrender.com';
     // NOTE: If testing on Android Emulator, change the mobile URL to 'http://10.0.2.2:8000' for local backend access.
 
     // Same background as Login

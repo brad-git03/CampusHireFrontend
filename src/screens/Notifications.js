@@ -42,7 +42,7 @@ const Notifications = ({ route, navigation }) => {
     // --- PARAMS & CONFIG ---
     const params = route.params || {};
     const user = params.user || (params.user_id ? { id: params.user_id } : null);
-    const API_URL = params.apiUrl || (Platform.OS === 'web' ? 'http://127.0.0.1:8000' : 'https://finalsbackendcampushire.onrender.com');
+    const API_URL = params.apiUrl || (Platform.OS === 'web' ? 'https://finalsbackendcampushire.onrender.com' : 'https://finalsbackendcampushire.onrender.com');
     const HEADER_BG = 'https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop';
 
     // --- STATE ---

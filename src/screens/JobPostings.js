@@ -46,7 +46,7 @@ const JobPostings = ({ navigation }) => {
     const [refreshing, setRefreshing] = useState(false);
 
     // 🌐 AUTO-DETECT URL
-    const API_URL = Platform.OS === 'web' ? 'http://127.0.0.1:8000' : 'https://finalsbackendcampushire.onrender.com';
+    const API_URL = Platform.OS === 'web' ? 'https://finalsbackendcampushire.onrender.com' : 'https://finalsbackendcampushire.onrender.com';
     const HEADER_BG = 'https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop';
 
     const fetchJobs = async () => {

@@ -46,7 +46,7 @@ const ScheduleInterview = ({ route, navigation }) => {
     const quickLocations = ["Zoom", "Google Meet", "Teams", "In-Person"];
 
     // API Configuration (using your provided detection logic)
-    const API_ROOT = Platform.OS === 'web' ? 'http://127.0.0.1:8000' : 'https://finalsbackendcampushire.onrender.com';
+    const API_ROOT = Platform.OS === 'web' ? 'https://finalsbackendcampushire.onrender.com' : 'https://finalsbackendcampushire.onrender.com';
     const API_URL = `${API_ROOT}/job/api/interviews/create/`; // Your backend endpoint
 
     // --- Date/Time Picker Handlers ---
